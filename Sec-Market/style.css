@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+
+
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+
+    display: flex;
+    width: 100%;
+
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.logo {
+    height: auto;
+    width: 190px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    margin-right: 170px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 50px
+}
+
+.header ul li a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.section {
+    position: relative;
+
+    width: 100%;
+    height: 70%;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2 {
+
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-2 pre {
+
+    padding: 25px 0;
+    font-size: 50px;
+
+
+}
+
+.section-2 button {
+    text-align: center;
+    font-size: xx-large;
+    width: 400px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: #0E3EDA;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.section-2 button:hover {
+
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.section-3 {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.section-3 .baslık h1 {
+    color: white;
+    font-size: x-large;
+    padding: 25px 0px;
+}
+
+.section-3 .baslık h2 {
+    margin-left: 900px;
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    border: 2px solid #0E3EDA;
+    padding: 25px 0px;
+    border-radius: 100%;
+    background-color: #0E3EDA;
+    color: white;
+
+}
+
+.section-3 .baslık h3 {
+    color: white;
+    padding: 25px 0px;
+    font-size: x-large;
+
+}
+
+#yazı {
+    width: 50%;
+    margin-left: 450px;
+
+}
+
+#yazı p {
+    color: white;
+    font-weight: 400;
+    line-height: 33px;
+
+    letter-spacing: 2px;
+    font-size: larger;
+
+    text-align: center;
+}
+
+.baslık {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(as.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
